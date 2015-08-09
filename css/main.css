@@ -1,0 +1,48 @@
+/* add custom styles */
+
+body {
+  padding-top: 25px;
+}
+
+table {
+  margin: 0 auto;
+  margin-bottom: 10px
+}
+
+table.sudoku {
+  border-collapse: collapse;
+  font-family: Calibri, sans-serif;
+  font-size: 1em;
+}
+
+.sudoku colgroup, tbody {
+  border: solid medium;
+}
+
+.sudoku td {
+  border: solid thin;
+  height: 4em;
+  width: 4em;
+  text-align: center;
+  padding: 0;
+}
+
+.sudoku tr:nth-of-type(3n) {
+  border-bottom: solid medium;
+}
+
+.sudoku td:nth-of-type(3n) {
+    border-right: solid medium;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.col {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
